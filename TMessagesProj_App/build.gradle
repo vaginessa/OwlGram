@@ -135,6 +135,7 @@ android {
     }
 
     dependenciesInfo.includeInApk false
+    namespace 'org.telegram.messenger.regular'
 }
 
 task("buildRelease") {
